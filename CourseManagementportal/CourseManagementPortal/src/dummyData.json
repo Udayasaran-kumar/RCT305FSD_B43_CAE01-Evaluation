@@ -1,0 +1,476 @@
+{ 
+    "courses": {
+    "course1": {
+      "id": "course1",
+      "name": "React Fundamentals",
+      "code": "CS301",
+      "description": "Introduction to React, component lifecycle, and state management",
+      "instructor": "instructor1",
+      "credits": 3,
+      "term": "Spring 2025",
+      "coverImage": "<https://picsum.photos/id/0/800/300>",
+      "createdAt": "2025-01-15T08:00:00Z"
+    },
+    "course2": {
+      "id": "course2",
+      "name": "Advanced JavaScript",
+      "code": "CS205",
+      "description": "Deep dive into JavaScript patterns, async programming, and ES6+ features",
+      "instructor": "instructor1",
+      "credits": 4,
+      "term": "Spring 2025",
+      "coverImage": "<https://picsum.photos/id/1/800/300>",
+      "createdAt": "2025-01-18T09:30:00Z"
+    },
+    "course3": {
+      "id": "course3",
+      "name": "UI/UX Design Principles",
+      "code": "DS100",
+      "description": "Fundamentals of user interface design and user experience",
+      "instructor": "instructor2",
+      "credits": 3,
+      "term": "Spring 2025",
+      "coverImage": "<https://picsum.photos/id/2/800/300>",
+      "createdAt": "2025-01-20T14:15:00Z"
+    },
+    "course4": {
+      "id": "course4",
+      "name": "Backend Development with Node.js",
+      "code": "CS405",
+      "description": "Server-side JavaScript, RESTful APIs, and database integration",
+      "instructor": "instructor2",
+      "credits": 4,
+      "term": "Spring 2025",
+      "coverImage": "<https://picsum.photos/id/3/800/300>",
+      "createdAt": "2025-01-22T11:45:00Z"
+    }
+  },
+
+  
+  "users": {
+    "instructor1": {
+      "id": "instructor1",
+      "name": "Dr. Jane Smith",
+      "email": "jane.smith@university.edu",
+      "role": "instructor",
+      "department": "Computer Science",
+      "avatar": "<https://randomuser.me/api/portraits/women/1.jpg>",
+      "bio": "Ph.D. in Computer Science with 10 years of industry experience"
+    },
+    "instructor2": {
+      "id": "instructor2",
+      "name": "Prof. Michael Johnson",
+      "email": "michael.johnson@university.edu",
+      "role": "instructor",
+      "department": "Design & Engineering",
+      "avatar": "<https://randomuser.me/api/portraits/men/2.jpg>",
+      "bio": "Former UX lead at major tech companies with 15 years of experience"
+    },
+    "student1": {
+      "id": "student1",
+      "name": "Alice Chen",
+      "email": "alice.chen@university.edu",
+      "role": "student",
+      "major": "Computer Science",
+      "year": 3,
+      "avatar": "<https://randomuser.me/api/portraits/women/3.jpg>"
+    },
+    "student2": {
+      "id": "student2",
+      "name": "Bob Martinez",
+      "email": "bob.martinez@university.edu",
+      "role": "student",
+      "major": "Web Development",
+      "year": 2,
+      "avatar": "<https://randomuser.me/api/portraits/men/4.jpg>"
+    },
+    "student3": {
+      "id": "student3",
+      "name": "Carol Wilson",
+      "email": "carol.wilson@university.edu",
+      "role": "student",
+      "major": "UI/UX Design",
+      "year": 4,
+      "avatar": "<https://randomuser.me/api/portraits/women/5.jpg>"
+    },
+    "student4": {
+      "id": "student4",
+      "name": "David Kim",
+      "email": "david.kim@university.edu",
+      "role": "student",
+      "major": "Computer Science",
+      "year": 3,
+      "avatar": "<https://randomuser.me/api/portraits/men/6.jpg>"
+    },
+    "student5": {
+      "id": "student5",
+      "name": "Eva Garcia",
+      "email": "eva.garcia@university.edu",
+      "role": "student",
+      "major": "Web Development",
+      "year": 2,
+      "avatar": "<https://randomuser.me/api/portraits/women/7.jpg>"
+    }
+  },
+
+  
+  "enrollments": {
+    "course1": {
+      "student1": true,
+      "student2": true,
+      "student3": true,
+      "student4": true
+    },
+    "course2": {
+      "student1": true,
+      "student2": true,
+      "student5": true
+    },
+    "course3": {
+      "student3": true,
+      "student4": true,
+      "student5": true
+    },
+    "course4": {
+      "student1": true,
+      "student4": true,
+      "student5": true
+    }
+  },
+
+  
+  "assignments": {
+    "course1": {
+      "assignment1": {
+        "id": "assignment1",
+        "title": "React Component Lifecycle",
+        "description": "Create a React application demonstrating the component lifecycle methods with proper state management.",
+        "dueDate": "2025-03-10T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-02-15T10:00:00Z"
+      },
+      "assignment2": {
+        "id": "assignment2",
+        "title": "State Management with Hooks",
+        "description": "Implement a todo application using React hooks for state management.",
+        "dueDate": "2025-03-25T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-02-20T14:30:00Z"
+      },
+      "assignment3": {
+        "id": "assignment3",
+        "title": "Context API Implementation",
+        "description": "Create a theme switcher application using React Context API.",
+        "dueDate": "2025-04-15T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-03-01T09:45:00Z"
+      }
+    },
+    "course2": {
+      "assignment4": {
+        "id": "assignment4",
+        "title": "Asynchronous JavaScript",
+        "description": "Implement a weather dashboard using async/await and fetch API.",
+        "dueDate": "2025-03-15T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-02-18T11:20:00Z"
+      },
+      "assignment5": {
+        "id": "assignment5",
+        "title": "ES6+ Features",
+        "description": "Refactor legacy JavaScript code using modern ES6+ features.",
+        "dueDate": "2025-04-05T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-03-05T13:15:00Z"
+      }
+    },
+    "course3": {
+      "assignment6": {
+        "id": "assignment6",
+        "title": "User Persona Development",
+        "description": "Create detailed user personas for an e-commerce application.",
+        "dueDate": "2025-03-20T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-02-25T15:40:00Z"
+      },
+      "assignment7": {
+        "id": "assignment7",
+        "title": "Responsive Design Prototype",
+        "description": "Design a responsive website with mobile-first approach.",
+        "dueDate": "2025-04-10T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-03-10T10:30:00Z"
+      }
+    },
+    "course4": {
+      "assignment8": {
+        "id": "assignment8",
+        "title": "RESTful API Development",
+        "description": "Create a Node.js RESTful API with Express and MongoDB integration.",
+        "dueDate": "2025-03-30T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-03-01T08:50:00Z"
+      },
+      "assignment9": {
+        "id": "assignment9",
+        "title": "Authentication System",
+        "description": "Implement JWT authentication for a Node.js application.",
+        "dueDate": "2025-04-20T23:59:59Z",
+        "totalPoints": 100,
+        "createdAt": "2025-03-15T16:20:00Z"
+      }
+    }
+  },
+
+  
+  "grades": {
+    "assignment1": {
+      "student1": {
+        "score": 92,
+        "feedback": "Excellent work on component lifecycle implementation. Clean code and good documentation.",
+        "submittedOn": "2025-03-09T14:25:30Z",
+        "gradedOn": "2025-03-12T10:15:22Z"
+      },
+      "student2": {
+        "score": 85,
+        "feedback": "Good understanding of lifecycle methods. Could improve code organization.",
+        "submittedOn": "2025-03-08T23:50:12Z",
+        "gradedOn": "2025-03-12T11:30:45Z"
+      },
+      "student3": {
+        "score": 78,
+        "feedback": "Correct implementation but lacks comprehensive comments. UI could be improved.",
+        "submittedOn": "2025-03-10T22:15:33Z",
+        "gradedOn": "2025-03-13T09:05:18Z"
+      },
+      "student4": {
+        "score": 95,
+        "feedback": "Outstanding work! Creative approach and excellent code structure.",
+        "submittedOn": "2025-03-07T18:30:55Z",
+        "gradedOn": "2025-03-11T14:20:10Z"
+      }
+    },
+    "assignment2": {
+      "student1": {
+        "score": 88,
+        "feedback": "Good implementation of hooks. Consider using useReducer for complex state.",
+        "submittedOn": "2025-03-24T20:10:15Z",
+        "gradedOn": "2025-03-27T15:35:28Z"
+      },
+      "student2": {
+        "score": 90,
+        "feedback": "Very clean implementation of useState and useEffect. Well-structured code.",
+        "submittedOn": "2025-03-23T19:45:22Z",
+        "gradedOn": "2025-03-27T16:40:33Z"
+      },
+      "student3": {
+        "score": 82,
+        "feedback": "Good functionality but could improve code reusability with custom hooks.",
+        "submittedOn": "2025-03-25T21:30:40Z",
+        "gradedOn": "2025-03-28T10:25:15Z"
+      }
+    },
+    "assignment4": {
+      "student1": {
+        "score": 94,
+        "feedback": "Excellent error handling and clean async/await implementation.",
+        "submittedOn": "2025-03-14T16:20:30Z",
+        "gradedOn": "2025-03-17T11:45:20Z"
+      },
+      "student2": {
+        "score": 86,
+        "feedback": "Good API integration. Consider adding more loading states for better UX.",
+        "submittedOn": "2025-03-13T22:10:45Z",
+        "gradedOn": "2025-03-17T13:15:50Z"
+      },
+      "student5": {
+        "score": 91,
+        "feedback": "Very good implementation. Creative UI and solid error handling.",
+        "submittedOn": "2025-03-15T18:05:12Z",
+        "gradedOn": "2025-03-18T09:30:25Z"
+      }
+    },
+    "assignment6": {
+      "student3": {
+        "score": 96,
+        "feedback": "Outstanding personas with detailed research backing. Excellent presentation.",
+        "submittedOn": "2025-03-19T14:30:22Z",
+        "gradedOn": "2025-03-22T10:15:18Z"
+      },
+      "student4": {
+        "score": 88,
+        "feedback": "Well-developed personas. Could use more quantitative data to support assumptions.",
+        "submittedOn": "2025-03-18T23:45:30Z",
+        "gradedOn": "2025-03-22T11:50:45Z"
+      },
+      "student5": {
+        "score": 92,
+        "feedback": "Very thorough research and excellent presentation of personas.",
+        "submittedOn": "2025-03-20T20:10:15Z",
+        "gradedOn": "2025-03-23T13:25:10Z"
+      }
+    },
+    "assignment8": {
+      "student1": {
+        "score": 89,
+        "feedback": "Good API design and documentation. Consider adding more validation.",
+        "submittedOn": "2025-03-29T17:45:30Z",
+        "gradedOn": "2025-04-02T14:20:15Z"
+      },
+      "student4": {
+        "score": 95,
+        "feedback": "Excellent implementation with comprehensive error handling and tests.",
+        "submittedOn": "2025-03-28T22:30:10Z",
+        "gradedOn": "2025-04-02T15:30:20Z"
+      },
+      "student5": {
+        "score": 87,
+        "feedback": "Solid API with good structure. Could improve database queries for performance.",
+        "submittedOn": "2025-03-30T19:15:45Z",
+        "gradedOn": "2025-04-03T10:45:25Z"
+      }
+    }
+  },
+
+  "courseStats": {
+    "course1": {
+      "averageGrade": 86.7,
+      "highestGrade": 95,
+      "lowestGrade": 78,
+      "gradeDistribution": {
+        "90-100": 2,
+        "80-89": 3,
+        "70-79": 1,
+        "60-69": 0,
+        "below-60": 0
+      },
+      "assignmentCompletion": 86.5,
+      "studentEngagement": 92.3
+    },
+    "course2": {
+      "averageGrade": 90.3,
+      "highestGrade": 94,
+      "lowestGrade": 86,
+      "gradeDistribution": {
+        "90-100": 2,
+        "80-89": 1,
+        "70-79": 0,
+        "60-69": 0,
+        "below-60": 0
+      },
+      "assignmentCompletion": 94.8,
+      "studentEngagement": 88.7
+    },
+    "course3": {
+      "averageGrade": 92.0,
+      "highestGrade": 96,
+      "lowestGrade": 88,
+      "gradeDistribution": {
+        "90-100": 2,
+        "80-89": 1,
+        "70-79": 0,
+        "60-69": 0,
+        "below-60": 0
+      },
+      "assignmentCompletion": 96.2,
+      "studentEngagement": 91.5
+    },
+    "course4": {
+      "averageGrade": 90.3,
+      "highestGrade": 95,
+      "lowestGrade": 87,
+      "gradeDistribution": {
+        "90-100": 1,
+        "80-89": 2,
+        "70-79": 0,
+        "60-69": 0,
+        "below-60": 0
+      },
+      "assignmentCompletion": 92.7,
+      "studentEngagement": 89.3
+    }
+  },
+
+ 
+  "studentPerformance": {
+    "student1": {
+      "overallGPA": 3.84,
+      "courseGrades": {
+        "course1": 90,
+        "course2": 94,
+        "course4": 89
+      },
+      "assignmentCompletionRate": 95.6,
+      "attendanceRate": 92.3,
+      "progressOverTime": [
+        {"month": "January", "grade": 85},
+        {"month": "February", "grade": 88},
+        {"month": "March", "grade": 92}
+      ]
+    },
+    "student2": {
+      "overallGPA": 3.61,
+      "courseGrades": {
+        "course1": 87.5,
+        "course2": 86
+      },
+      "assignmentCompletionRate": 90.2,
+      "attendanceRate": 88.5,
+      "progressOverTime": [
+        {"month": "January", "grade": 82},
+        {"month": "February", "grade": 86},
+        {"month": "March", "grade": 89}
+      ]
+    },
+    "student3": {
+      "overallGPA": 3.58,
+      "courseGrades": {
+        "course1": 80,
+        "course3": 96
+      },
+      "assignmentCompletionRate": 89.5,
+      "attendanceRate": 91.2,
+      "progressOverTime": [
+        {"month": "January", "grade": 78},
+        {"month": "February", "grade": 84},
+        {"month": "March", "grade": 90}
+      ]
+    },
+    "student4": {
+      "overallGPA": 3.92,
+      "courseGrades": {
+        "course1": 95,
+        "course3": 88,
+        "course4": 95
+      },
+      "assignmentCompletionRate": 98.3,
+      "attendanceRate": 96.5,
+      "progressOverTime": [
+        {"month": "January", "grade": 90},
+        {"month": "February", "grade": 93},
+        {"month": "March", "grade": 96}
+      ]
+    },
+    "student5": {
+      "overallGPA": 3.76,
+      "courseGrades": {
+        "course2": 91,
+        "course3": 92,
+        "course4": 87
+      },
+      "assignmentCompletionRate": 94.8,
+      "attendanceRate": 93.7,
+      "progressOverTime": [
+        {"month": "January", "grade": 85},
+        {"month": "February", "grade": 90},
+        {"month": "March", "grade": 93}
+      ]
+    }
+  }
+} 
+  
+
+  
+ 
+  
+  
